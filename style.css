@@ -1,0 +1,21 @@
+/* selectores de etiqueta ]*/
+body{      
+    background-color: #393e41;
+}  
+
+p{
+    color: goldenrod;
+}
+
+li{
+    color: steelblue;
+}
+/* selector de clase */
+.color-titulos{
+    color: #587B7F;
+}
+
+/* selector por id */  
+#li-importantisimo{
+    color: #D3D0CB;
+}
