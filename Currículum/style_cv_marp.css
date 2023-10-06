@@ -1,0 +1,129 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    /* 100% = 16px , font-size: 1em; 1em = 16px font-size: 2em; /* 2em = 32px */
+    color: #11395F
+}
+
+.header {
+    display: flex;
+    flex-basis: 210px;
+}
+
+.header-left {
+    flex: 30%;
+    background-color: #C8D2E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#picture {
+    height: 195px;
+    flex-basis: 195px;
+    /* flex-basis tiene el mismo propósito que with y/o height*/
+    background-size: cover;
+    /*border-radius: 15px 50px;*/
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.header-right {
+    flex: 70%;
+    background-color: #8595AB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#subtitle {
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 32px;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-left {
+    flex: 30%;
+    background-color: #C6E2E9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column-right {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    /* descarta los bullets  */
+}
+
+/*
+.li-bullets {
+    list-style-type: disc;  /* agrega los bullets a los li (los clasicos) 
+}
+*/
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    line-height: 150%;
+    /* incremeta el espaciado entre lineas  */
+}
+
+.li-bullets {
+    list-style-type: disc;  /* agrega los bullets a los li (los clasicos) */
+}
+
+.ul-right {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0px;
+    line-height: 150%;
+}

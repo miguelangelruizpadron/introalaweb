@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style_netflix.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    
+	<title>Mackyflix</title>
+	<!-- enlace para obtener los íconos y sus códigos con mi usuario de fontawesone-->
+    <!-- los tipos de fonts que usa netflix son Bebas Neue y Open Sans-->
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">MACKYFLIX</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Programas</a>
+				<a href="#">Películas</a>
+				<a href="#">Más Recientes</a>
+				<a href="#">Mi lista</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Los anillos de poder</h3>
+				<p class="descripcion">
+					Desde las profundidades más oscuras de las Montañas Nubladas hasta los majestuosos bosques de Lindon, desde el reino insular de Númenor hasta los extremos más remotos del mapa, estos parajes y personajes forjarán los legados que perdurarán más allá de su desaparición.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+        
+        <div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto0.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="./Imagenes/foto8.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	
+</body>
+</html>
