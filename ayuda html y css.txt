@@ -1,0 +1,48 @@
+Guardar documento ctrl + s 
+
+Comentar líneas de código en html <!-- -->
+
+Para comentar un bloque de líneas, seleccionas las líneas pulsas Ctrl + k y luego Ctrl + c
+
+Para abrir el menú de metodos abreviados con el teclado,pulsar Ctrl + k y luego Ctrl + s
+
+Iniciar un archivo HTML 5 con ! o escribiendo en la primera línea del archivo nuevo html:5
+
+Para linkear un archivo CSS: escribimos link:css y enter y se complementa la línea de código.
+
+Para repetir una instrucción varias veces sin copiar y pegar hacer los siguiente, ejemplos div*4 y enter genera cuatro línas de código con divs....p*6 generará 6 líneas con la instrucción <p>
+
+Desde la terminal de GitHub teclear el comando code . y abrirá el Visual Studio Code en la carpeta en dónde nos encontramos posicionados
+
+Para copiar una o varias líneas de código: seleccionas la o líneas, presionas ALT izquierdo SHIFT izquierdo y flecha hacia abajo
+
+En visual studio code, si los textos o líneas de comandos son muy largos, selecciona la línea y presiona ALT izquierdo y z y se acomodara el texto para que se pueda ver todo en la misma pantalla y no tengas que usar las barras de desplazamiento.
+
+SEO: Search Engine Optimization (optimización para motores de búsqueda)(las palabras para el motor de búsqueda)
+
+
+Comandos básicos de GITHUB.
+git clone ruta repositorio a clonar
+git add . agregar archivos al repositorio
+git commit -m "comentario del cambio aplicado"
+git push origin main subir los cambios realizados al repositorio de github
+git pull origin main descargar o jalar los archivos del repositorio en github
+
+
+
+<div class="column-left">
+            <ul>
+                <li>
+                    <img src="./imagenes/cel.png" alt="Ícono teléfono" class="icon"> 55.2753.5879
+                </li>
+                <li>
+                    <img src="./imagenes/email.png" alt="Ícono correo" class="icon"> mackyruizpadron@gmail.com
+                </li>
+                <li>
+                    <img src="./imagenes/www.png" alt="Ícono web" class="icon"> www.mackyruizpadron.com
+                </li>
+
+
+
+
+
